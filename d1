@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    int number;
+    int sum = 0;
+
+    std::cout << "Введите числа (введите 0 для завершения):\n";
+
+   
+    do {
+        std::cin >> number;
+        sum += number;
+    } while (number != 0);
+
+    std::cout << "Сумма всех введенных чисел: " << sum << std::endl;
+
+    return 0;
+}
+
